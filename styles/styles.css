@@ -263,11 +263,17 @@ input:focus, textarea:focus {
   transition: all 400ms ease-in;
 }
 
+.project-info {
+  max-width: 100%;
+  min-height: 33vw;
+  height: auto;
+}
+
 .project-name {
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   font-weight: bold;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 
 .project-body {
@@ -280,21 +286,24 @@ input:focus, textarea:focus {
 
 .project-description {
   /*letter-spacing: 2px;*/
-  font-size: 30px;
+  font-size: 31px;
   font-weight: 600;
   font-variant: small-caps;
+  line-height: 2;
   text-align: center;
-  padding: 0 7%;
+  padding: 0 13%;
+  margin: 6% 0;
   /*padding-left: calc(30px + 1.5vw);*/
 }
 
 i {
-  font-size: calc(17px + 0.2vw);
+  font-size: 20px;
+  /*font-size: calc(17px + 0.2vw);*/
   font-variant: small-caps;
 }
 
 b {
-  font-size: calc(17px + 0.2vw);
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -347,14 +356,15 @@ b {
 }
 
 .blog-list-entry {
-  background-color: rgba(157,236,249,0.3);
+  /*background-color: rgba(157,236,249,0.3);*/
   /*background-color: rgba(249,184,239,0.2);*/
+  background-color: rgba(0,0,0,0.1);
   margin: 0 10%;
 }
 
 .blog-title {
   color: white;
-  text-shadow: 0px 0px 12px black;
+  /*text-shadow: 0px 0px 12px black;*/
   padding-top: 3%;
   font-size: 25px;
   font-weight: 800;
@@ -363,7 +373,7 @@ b {
 }
 
 .blog-summary {
-  text-shadow: 0px 0px 12px black;
+  /*text-shadow: 0px 0px 12px black;*/
   color: white;
   font-size: 18px;
   padding: 1% 5%;
